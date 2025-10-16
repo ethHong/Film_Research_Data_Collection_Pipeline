@@ -1,0 +1,11 @@
+beautifulsoup4
+dlib
+numpy
+pandas
+requests
+spacy
+torch
+torchvision
+tqdm
+wikipedia
+openpyxl # For Excel file support in pandas

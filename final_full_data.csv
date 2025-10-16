@@ -1,0 +1,72 @@
+person_odid,person_name,DOB,DOB_source,Gender,Gender_source,wiki_race_tag,race_predicted,race4_predicted,race_scores_fair,race_scores_fair_4,in_actorlist,in_directorlist
+580401,Johnny Depp,1963-06-09,TMDB,Male,TMDB,,,,,,True,False
+590401,Cameron Diaz,1972-08-30,TMDB,Female,TMDB,Mixed,,,,,True,False
+600401,Harrison Ford,,Unknown,,Unknown,,,,,,True,False
+700401,Eddie Murphy,1961-04-03,TMDB,Male,TMDB,Black,,,,,True,False
+710401,Liam Neeson,1952-06-07,TMDB,Male,TMDB,,,,,,True,False
+840401,Kate Winslet,1975-10-05,TMDB,Female,TMDB,White,,,,,True,False
+1290401,Ewan McGregor,1971-03-31,TMDB,Male,TMDB,,,,,,True,False
+9490401,Christian Bale,1974-01-30,TMDB,Male,TMDB,White,,,,,True,False
+15940401,Orlando Bloom,1977-01-13,TMDB,Male,TMDB,,,,,,True,False
+28330401,Hayden Christensen,1981-04-19,TMDB,Male,TMDB,,,,,,True,False
+39750401,Leonardo DiCaprio,1974-11-11,TMDB,Male,TMDB,White,,,,,True,False
+48440401,Carrie Fisher,,Unknown,,Unknown,,,,,,True,False
+50340401,Megan Fox,1986-05-16,TMDB,Female,TMDB,,,,,,True,False
+60740401,Mark Hamill,,Unknown,,Unknown,,,,,,True,False
+78970401,Keira Knightley,1985-03-26,TMDB,Female,TMDB,,,,,,True,False
+80850401,Shia LaBeouf,1986-06-11,TMDB,Male,TMDB,White,,,,,True,False
+83480401,Heath Ledger,1979-04-04,TMDB,Male,TMDB,White,,,,,True,False
+86720401,Jake Lloyd,,Unknown,,Unknown,,,,,,True,False
+90320401,Tobey Maguire,1975-06-27,TMDB,Male,TMDB,Mixed,,,,,True,False
+104060401,Mike Myers,1963-05-25,TMDB,Male,TMDB,White,,,,,True,False
+106110401,Bill Nighy,1949-12-12,TMDB,Male,TMDB,,,,,,True,False
+115800401,Natalie Portman,1981-06-09,TMDB,Female,TMDB,,,,,,True,False
+141560401,Henry Thomas,1971-09-09,TMDB,Male,TMDB,,,,,,True,False
+2460401,Andrew Adamson,1966-12-01,Wiki_document,Male,Wiki_document,White,,,,,False,True
+5880401,Avi Arad,1948-08-01,TMDB,Male,TMDB,White,,,,,False,True
+6860401,Kelly Asbury,1960-01-15,TMDB,Male,TMDB,,,,,,False,True
+11530401,Michael Bay,1965-02-17,TMDB,Male,TMDB,White,,,,,False,True
+23100401,James Cameron,1954-08-16,TMDB,Male,TMDB,White,,,,,False,True
+55800401,Brian Goldner,1963-04-21,TMDB,Male,TMDB,,,,,,False,True
+79280401,David Koepp,1963-06-09,TMDB,Male,TMDB,White,,,,,False,True
+80570401,Alex Kurtzman,1973-09-07,TMDB,Male,TMDB,White,,,,,False,True
+83860401,Stan Lee,1922-12-28,Wiki_document,Male,Wiki_document,White,,,,,False,True
+86260401,David Lipman,,Unknown,Male,TMDB,,,,,,False,True
+88340401,George Lucas,,Unknown,,Unknown,,,,,,False,True
+106410401,Christopher Nolan,1970-07-30,TMDB,Male,TMDB,White,,,,,False,True
+109030401,Roberto Orci,1973-07-20,TMDB,Male,TMDB,Latino / Hispanic,,,,,False,True
+117920401,Sam Raimi,1959-10-23,TMDB,Male,TMDB,White,,,,,False,True
+135430401,Steven Spielberg,1946-12-18,TMDB,Male,TMDB,,,,,,False,True
+145280401,Mark Vahradian,,Unknown,Male,TMDB,,,,,,False,True
+146540401,Gore Verbinski,1964-03-16,TMDB,Male,TMDB,,,,,,False,True
+146710401,Conrad Vernon,1968-07-11,TMDB,Male,TMDB,,,,,,False,True
+182170401,Ehren Kruger,1972-10-05,TMDB,Male,TMDB,,,,,,False,True
+188320401,Lorenzo di Bonaventura,1957-01-13,TMDB,Male,TMDB,,,,,,False,True
+189790401,Kathleen Kennedy,,Unknown,,Unknown,,,,,,False,True
+190420401,Jon Landau,1960-07-23,TMDB,Male,TMDB,,,,,,False,True
+195610401,Eric McLeod,,Unknown,Male,TMDB,,,,,,False,True
+203230401,Emma Thomas,1971-12-09,TMDB,Female,TMDB,White,,,,,False,True
+203240401,Charles Roven,1949-08-02,TMDB,Male,TMDB,,,,,,False,True
+203250401,Jonathan Nolan,1976-06-06,TMDB,Male,TMDB,White,,,,,False,True
+203280401,Gary Kurtz,,Unknown,,Unknown,,,,,,False,True
+203290401,Camera Gilbert Taylor,,Unknown,,Unknown,,,,,,False,True
+203340401,Jeffrey Katzenberg,1950-12-21,TMDB,Male,TMDB,White,,,,,False,True
+203350401,Aron Warner,1961-03-25,TMDB,Male,TMDB,,,,,,False,True
+203360401,John H. Williams,1953-06-17,TMDB,Male,TMDB,,,,,,False,True
+203370401,Joe Stillman,,Unknown,Male,TMDB,,,,,,False,True
+203390401,David N. Weiss,,Unknown,Male,TMDB,White,,,,,False,True
+203560401,Melissa Mathison,1950-06-03,TMDB,Female,TMDB,,,,,,False,True
+203590401,Rick McCallum,,Unknown,,Unknown,,,,,,False,True
+203620401,Mike Stenson,,Unknown,Male,TMDB,,,,,,False,True
+203630401,Chad Oman,1965-05-15,TMDB,Male,TMDB,,,,,,False,True
+203640401,Bruce Hendricks,,Unknown,Male,TMDB,,,,,,False,True
+203650401,Jerry Bruckheimer,1943-09-21,TMDB,Male,TMDB,,,,,,False,True
+203660401,Ted Elliott,1961-07-04,TMDB,Male,TMDB,,,,,,False,True
+203670401,Terry Rossio,1960-07-02,TMDB,Male,TMDB,,,,,,False,True
+203790401,Laura Ziskin,1950-03-03,TMDB,Female,TMDB,White,,,,,False,True
+203800401,Ian Bryce,1956-11-30,TMDB,Male,TMDB,White,,,,,False,True
+204370401,Tom DeSanto,,Unknown,,Unknown,,,,,,False,True
+204380401,Don Murphy,,Unknown,Male,TMDB,,,,,,False,True
+211610401,Michael E. Uslan,1952-06-02,TMDB,Male,TMDB,,,,,,False,True
+256160401,J. David Stem,,Unknown,,Unknown,,,,,,False,True
+1400210401,Herbert Selpin,1902-05-29,TMDB,Male,TMDB,White,,,,,False,True
