@@ -10,11 +10,12 @@ if [[ -f "${KEY_FILE}" ]]; then
   echo "Loaded TMDB_API_KEY from ${KEY_FILE}"
 fi
 
+
 # -------------------------------
 # Step 0: Ensure spaCy model installed
 # -------------------------------
-python -m spacy validate | grep -q "en_core_web_sm" || python -m spacy download en_core_web_sm
 
+python -m spacy validate | grep -q "en_core_web_sm" || python -m spacy download en_core_web_sm
 # -------------------------------
 # Config
 # -------------------------------
