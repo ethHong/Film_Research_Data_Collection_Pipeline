@@ -42,8 +42,7 @@ htmlcov/
 *.key
 *.pem
 secrets/
-data/
-datasets/
+#data/
 *.sqlite
 *.db
 *key.txt
