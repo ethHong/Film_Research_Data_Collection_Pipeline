@@ -277,16 +277,42 @@ def main():
     )
 
     TMDB_wiki_merged = TMDB_df.merge(
-        merged_actor_wiki[["person_odid", "race_tag_final"]],
+        merged_actor_wiki[
+            [
+                "person_odid",
+                "merged_race_keywords",
+                "race_tags",
+                "race_tag_final",
+            ]
+        ],
         on="person_odid",
         how="left",
-    ).rename(columns={"race_tag_final": "wiki_race_tag_actors"})
+    ).rename(
+        columns={
+            "race_tag_final": "wiki_race_tag_actors",
+            "merged_race_keywords": "merged_race_keywords_actors",
+            "race_tags": "race_tags_actors",
+        }
+    )
 
     TMDB_wiki_merged = TMDB_wiki_merged.merge(
-        merged_director_wiki[["person_odid", "race_tag_final"]],
+        merged_director_wiki[
+            [
+                "person_odid",
+                "merged_race_keywords",
+                "race_tags",
+                "race_tag_final",
+            ]
+        ],
         on="person_odid",
         how="left",
-    ).rename(columns={"race_tag_final": "wiki_race_tag_directors"})
+    ).rename(
+        columns={
+            "race_tag_final": "wiki_race_tag_directors",
+            "merged_race_keywords": "merged_race_keywords_directors",
+            "race_tags": "race_tags_directors",
+        }
+    )
 
     # Gender & TMDB person id
     TMDB_wiki_merged["gender"] = (

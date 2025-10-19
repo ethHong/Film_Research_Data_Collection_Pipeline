@@ -508,6 +508,20 @@ def main():
             df["wiki_race_tag_actors"], df["wiki_race_tag_directors"]
         )
     ]
+    # merged_race_keywords_directors,race_tags_directors,
+    df["wiki_race_tag_clues"] = [
+        actors if pd.notnull(actors) else directors
+        for actors, directors in zip(
+            df["merged_race_keywords_actors"], df["merged_race_keywords_directors"]
+        )
+    ]
+
+    df["wiki_multi_race_tags"] = [
+        actors if pd.notnull(actors) else directors
+        for actors, directors in zip(
+            df["race_tags_directors"], df["race_tags_directors"]
+        )
+    ]
 
     # Save final_full_data
     final_full_path = os.path.join(args.out_dir, f"{prefix}final_full_data.csv")
@@ -520,6 +534,8 @@ def main():
             "Gender",
             "Gender_source",
             "wiki_race_tag",
+            "wiki_race_tag_clues",
+            "wiki_multi_race_tags",
             "race_predicted",
             "race4_predicted",
             "race_scores_fair",
@@ -715,6 +731,10 @@ def main():
         "race_final",
         "race_source",
         "race_scores_fair",
+        "wiki_race_tag",
+        "wiki_race_tag_clues",
+        "wiki_multi_race_tags",
+        "race_predicted",
         "in_actorlist",
         "in_directorlist",
         "Race_present",
